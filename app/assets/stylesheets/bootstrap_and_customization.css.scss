@@ -1,7 +1,38 @@
+@import url(http://fonts.googleapis.com/css?family=Hammersmith+One);
+
 $body-bg:  #7f8c8d;
 $navbar-inverse-bg:  #ecf0f1;
 $navbar-inverse-link-color:  black;
 $brand-primary:  #34495e;
 $jumbotron-bg:  #ecf0f1;
+$font-family-sans-serif: 'Hammersmith One', sans-serif;
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.fa {
+	color: #FFFFFF;
+	position: relative;
+	margin-top: 150px;
+
+}
+
+.touch {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.contact {
+	font-size: 100px;
+}
+
+.fa:hover {
+	color: #bdc3c7;
+}
+
+.about {
+	color: #FFFFFF;
+}
